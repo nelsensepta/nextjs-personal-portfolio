@@ -11,12 +11,12 @@ interface Props {
 export const LinkTag = ({ href, children, style, target }: Props) => {
   return (
     <Link href={href} rel="noreferrer" target={target}>
-      {/* <div
+      <span
         className="font-bold w-fit text-pink-500 hover:underline"
         style={style}
-      > */}
-      {children}
-      {/* </div> */}
+      >
+        {children}
+      </span>
     </Link>
   );
 };

@@ -21,7 +21,7 @@ export const Footer = (props: { children?: React.ReactNode }) => {
     <footer className="flex flex-col border-t mt-6 border-teal-100 dark:border-teal-900 pt-10">
       <div className="flex justify-between mb-[-2rem]">
         <h2 className="text-xl opacity-80 font-bold dark:text-white">
-          Uygar Uğurlu
+          Nelsen Septa
         </h2>
         <p
           className={`text-gray-500 opacity-80 text-xs mb-12 transition duration-500 ease-in-out ${

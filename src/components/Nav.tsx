@@ -33,10 +33,11 @@ const LinkTag = ({
   to: string;
 }) => {
   return (
-    <Link href={to}>
-      <div className="mr-8 text-gray-600 focus:ring-2 ring-pink-500 outline-none dark:text-gray-300 text-sm duration-300 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-lg">
-        {children}
-      </div>
+    <Link
+      href={to}
+      className="mr-5 text-gray-600 focus:ring-2 ring-pink-500 outline-none dark:text-gray-300 text-sm duration-300 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-lg"
+    >
+      {children}
     </Link>
   );
 };

@@ -8,14 +8,14 @@ export const Contact = () => {
     <section className="flex flex-col">
       <Heading>Contact 💌</Heading>
       <Text>
-        Be sure to shoot me a{" "}
+        Be sure to shoot me a
         <LinkTag href="https://twitter.com/uuygarugurlu" target="_blank">
           DM on Twitter
         </LinkTag>
         .
       </Text>
       <Text>
-        For more serious matters{" "}
+        For more serious matters
         <LinkTag href={`mailto:${EMAIL_ADDRESS}`}>shoot me an email</LinkTag>.
       </Text>
     </section>

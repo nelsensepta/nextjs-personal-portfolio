@@ -18,7 +18,6 @@ const Home: NextPage = () => {
         <About />
         <Technologies />
         <Contact />
-        {/* <p>ok</p> */}
       </Layout>
     </>
   );
