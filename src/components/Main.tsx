@@ -12,14 +12,10 @@ export const Main = () => {
     <>
       <main className="flex md:flex-row md:flex-start flex-col-reverse items-start md:items-center w-full justify-between mb-12 mt-20">
         <div className="flex flex-col">
-          <Link href="https://www.google.com/maps/place/Ankara">
-            {/* <a className="w-fit" target="_blank"> */}
-            <div className="flex items-center p-1 text-sm px-3 mb-4 w-fit rounded-full text-white bg-pink-500">
-              <IoIosPin className="mr-2 text-xl" />
-              Indonesia, Central Java
-            </div>
-            {/* </a> */}
-          </Link>
+          <div className="flex items-center p-1 text-sm px-3 mb-4 w-fit rounded-full text-white bg-pink-500">
+            <IoIosPin className="mr-2 text-xl" />
+            Indonesia, Central Java
+          </div>
           <Heading style={{ marginBottom: "0.5rem" }}>
             Nelsen Septa <span className="wave">👋</span>
           </Heading>

@@ -8,34 +8,34 @@ interface Props {
 const structuredData = {
   "@context": "https://schema.org/",
   "@type": "Person",
-  name: "Uygar Uğurlu",
+  name: "Nelsen Septa",
   image: "https://uygar.xyz/me.jpeg",
   jobTitle: "Software Developer",
   url: "https://uygar.xyz/",
   sameAs: [
-    "https://twitter.com/uuygarugurlu",
-    "https://github.com/uyg4rugurlu",
-    "https://www.instagram.com/uuygarugurlu/",
+    "https://www.linkedin.com/in/nelsensepta/",
+    "https://github.com/nelsensepta",
+    "https://www.instagram.com/nelsensepta/",
   ],
 };
 
 export const Seo = () => {
   return (
     <Head>
-      <title>Uygar Uğurlu</title>
+      <title>Nelsen Septa</title>
       <meta charSet={"UTF-8"} />
-      <meta name="title" content="Uygar Uğurlu" />
+      <meta name="title" content="Nelsen Septa" />
       <meta
         name="description"
-        content="Hi there, I'm Uygar Uğurlu &mdash; a full-stack web application developer from Ankara, Türkiye."
+        content="Hi there, I'm Nelsen Septa &mdash; a full-stack web application developer from Central Java, Indonesia."
       />
       <meta name="robots" content="index, follow" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://uygar.xyz/" />
-      <meta property="og:title" content="Uygar Uğurlu" />
+      <meta property="og:title" content="Nelsen Septa" />
       <meta
         property="og:description"
-        content="Hi there, I'm Uygar Uğurlu &mdash; a full-stack web application developer from Ankara, Türkiye."
+        content="Hi there, I'm Nelsen Septa &mdash; a full-stack web application developer from Central Java, Indonesia."
       />
       <meta property="og:image" content="https://uygar.xyz/me.jpeg" />
       <meta property="twitter:card" content="summary_large_image" />
@@ -43,7 +43,7 @@ export const Seo = () => {
       <meta property="twitter:title" content="Uygar Uğurlu" />
       <meta
         property="twitter:description"
-        content="Hi there, I'm Uygar Uğurlu &mdash; a full-stack web application developer from Ankara, Türkiye."
+        content="Hi there, I'm Nelsen Septa &mdash; a full-stack web application developer from Central Java, Indonesia."
       />
       <meta property="twitter:image" content="https://uygar.xyz/me.jpeg" />
       <meta

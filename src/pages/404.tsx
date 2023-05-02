@@ -9,7 +9,7 @@ const NotFound = () => {
         <h1 className="text-4xl font-bold tracking-tight mb-2 dark:text-white">
           4 0 4
         </h1>
-        <LinkTag href="/">&larr; Ah shit, here we go again.</LinkTag>
+        <LinkTag href="/">&larr; Ah No, here we go again.</LinkTag>
       </div>
     </>
   );

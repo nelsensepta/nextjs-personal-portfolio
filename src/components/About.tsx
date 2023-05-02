@@ -10,24 +10,27 @@ export const About = () => {
       <Heading>About 💭</Heading>
       <Text style={{ marginBottom: `${TEXT_MARGIN_BOTTOM}rem` }}>
         I&apos;m a {new Date().getFullYear() - 2003} year old software engineer
-        based in the TR, I specialize in web development.
+        based in Indonesia, I specialize in web development.
       </Text>
       <Text style={{ marginBottom: `${TEXT_MARGIN_BOTTOM}rem` }}>
         I use a variety of technologies to ease my development process, when
-        working on the client I use
+        working on the client I use{" "}
         <LinkTag href="https://reactjs.org/" target="_blank">
-          ReactJS
+          ReactJS{" "}
         </LinkTag>
         &#38;
         <LinkTag href="https://nextjs.org/" target="_blank">
-          NextJS
+          {" "}
+          NextJS{" "}
         </LinkTag>
         and for the serverside I use
         <LinkTag href="https://nodejs.org/en/" target="_blank">
-          Node
+          {" "}
+          Node{" "}
         </LinkTag>
         &#38;
         <LinkTag href="https://php.net/" target="_blank">
+          {" "}
           PHP
         </LinkTag>
       </Text>
