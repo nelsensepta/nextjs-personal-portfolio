@@ -27,7 +27,7 @@ export const Main = () => {
                 2000,
                 "anime lover",
                 2000,
-                "Coffe lover",
+                "Coffee lover",
                 2000,
               ]}
               wrapper="p"

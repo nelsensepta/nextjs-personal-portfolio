@@ -8,7 +8,7 @@ interface Props {
 export const Avatar = ({ width, height }: Props) => {
   return (
     <Image
-      src="/me.jpeg"
+      src="https://storage.googleapis.com/test-385515.appspot.com/makima.jpg"
       alt="Uygar Uğurlu"
       className="rounded-full"
       width={width}
