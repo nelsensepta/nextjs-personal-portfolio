@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     formats: ["image/webp"],
-    domains: ["storage.googleapis.com"],
+    domains: ["res.cloudinary.com"],
   },
   reactStrictMode: true,
 };

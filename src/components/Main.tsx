@@ -10,8 +10,8 @@ import Link from "next/link";
 export const Main = () => {
   return (
     <>
-      <main className="flex md:flex-row md:flex-start flex-col-reverse items-start md:items-center w-full justify-between mb-12 mt-20">
-        <div className="flex flex-col">
+      <main className="flex md:flex-row md:flex-start flex-col-reverse md:justify-between w-full justify-center items-center mb-12 mt-20">
+        <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
           <div className="flex items-center p-1 text-sm px-3 mb-4 w-fit rounded-full text-white bg-pink-500">
             <IoIosPin className="mr-2 text-xl" />
             Indonesia, Central Java
@@ -37,8 +37,8 @@ export const Main = () => {
           </div>
           <Links />
         </div>
-        <div className="flex border mb-8 md:mb-0 duration-300 border-teal-100 dark:border-black rounded-full">
-          <Avatar width={122} height={122} />
+        <div className="flex mb-8 md:mb-0 rounded-full justify-center md:justify-end items-center">
+          <Avatar width={300} height={300} />
         </div>
       </main>
     </>
